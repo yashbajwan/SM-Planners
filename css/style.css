@@ -1,0 +1,78 @@
+*{ margin: 0; box-sizing: border-box}
+a{ text-decoration: none}
+ul{ list-style: none; padding: 0}
+img{ vertical-align: bottom}
+iframe{ border: none}
+
+@font-face{
+    font-family:mr;
+    src:url(../fonts/Montserrat-Regular.woff) format('woff');
+}
+@font-face{
+    font-family:mb;
+    src:url(../fonts/Montserrat-Bold.woff) format('woff');
+}
+@font-face{
+    font-family:mj;
+    src:url(../fonts/majesti-banner-medium-webfont.woff) format('woff');
+}
+.clear{ clear: both}
+.maj{ font-family: mj,serif}
+h1, h2, h3, h4, th, b, strong{ font-family: mb, sans-serif}
+body{ font: 14px mr,sans-serif }
+.container{ width: 1200px; margin: auto; padding: 0 15px}
+.row{ margin: 0 -15px}
+.row:after{ content: ""; clear: both; display: block}
+.col-1{ width: 8.33%; padding: 0 15px; float: left }
+.col-2{ width: 16.66%; padding: 0 15px; float: left }
+.col-3{ width: 25%; padding: 0 15px; float: left }
+.col-4{ width: 33.33%; padding: 0 15px; float: left }
+.col-5{ width: 41.66%; padding: 0 15px; float: left }
+.col-6{ width: 50%; padding: 0 15px; float: left }
+.col-7{ width: 58.33%; padding: 0 15px; float: left }
+.col-8{ width: 66.66%; padding: 0 15px; float: left }
+.col-9{ width: 75%; padding: 0 15px; float: left }
+.col-10{ width: 83.33%; padding: 0 15px; float: left }
+.col-11{ width: 91.66%; padding: 0 15px; float: left }
+.col-12{ width: 100%; padding: 0 15px; float: left }
+[class^="col"]{ min-height: 1px}
+
+
+/*Custom*/
+.wrap-1{ background: #213532; color: #fff; padding: 13px  0; }
+.wrap-1 nav{ float: right; margin-top: 30px }
+.wrap-1 nav ul{ }
+.wrap-1 nav ul li{ float: left ; margin-left: 22px}
+.wrap-1 nav ul li a{ text-align: center; line-height:39px; ; display: block; width: 146px; height: 45px; color: #fff; border: 3px solid}
+.wrap-1 nav ul li a.active{ background: #10baae; border-color: #10baae }
+.wrap-1 nav ul li a.last{ color: #e0c48f }
+
+.wrap-2{ background: url(../img/bg.jpg) no-repeat center center/cover ; padding: 140px 0; }
+.wrap-2 h2{ font-size: 100px; text-align: center; color: #fff; line-height: 120px; text-shadow: 0px 5px 5px #4d4d4d}
+.wrap-2 a{ display: block; width: 185px; line-height: 50px; background: #fff; text-align: center; color:#516d69; margin: auto; margin-top: 30px}
+.wrap-3{ font-size: 30px; background: #213532; color: #e0c48f; line-height: 151px; text-align: center;}
+.wrap-4{ height: 529px; background: url(../img/bg2.jpg) no-repeat #f0f0f2; padding: 70px 0;}
+.wrap-4 h2{ font-size: 40px; color: #436d67; line-height: 50px; margin-bottom: 40px}
+.para{ font-size: 13px; color: #8f9092; line-height: 24px;}
+.wrap-4 a{ display: block; width: 185px; line-height: 50px; border: 3px solid; color: #436d67; text-align: center; margin-top: 50px}
+.wrap-5{ padding: 94px 0; text-align: center}
+.wrap-5 h3{ color: #436d67; font-size: 30px; line-height: 40px}
+.wrap-5 .para, .wrap-6 .para{ text-align: left}
+.wrap-6 .text-center{ text-align: center}
+.wrap-6{ background: #f0f0f2; text-align: center; padding: 50px 0}
+.wrap-6 iframe{margin-top: 60px}
+.wrap-6 h2{ color: #436d67; font-size: 40px; line-height: 50px; margin-bottom: 25px}
+.wrap-6 h3{ color: #436d67; font-size: 30px; line-height: 40px; margin-bottom: 25px}
+.textbox{ background: transparent; border: 1px solid #666; padding: 5px; width: 100% ; font-size: 18px}
+.wrap-6 form label{  font-size: 18px; display: block; margin: 10px 0; text-align: right}
+.btn{  border: 2px solid; padding: 6px 10px; background: transparent; color: #213532; font-size: 18px; cursor: pointer; border-radius: 5px; margin: 5px }
+.btn:hover{ background: #10baae; border-color: #10baae; color: #fff}
+.btn:active{ background: #213532; border-color: #213532; color: #fff}
+.btn:focus{ outline: none}
+
+.wrap-7{ background: #213532; color: #fff; padding:20px 0; text-align:center}
+.social{ width: 322px; margin: auto }
+.social li{ float: left; margin: 15px }
+.social li a{  color: #c7cccc; font-size: 30px; }
+.wrap-7 nav a{ color: #c7cccc; margin: 0 18px;}
+.wrap-8{ background: #162724; color: #b0b0b0; padding:20px 0; text-align:center}
