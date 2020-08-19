@@ -1,1 +1,1 @@
-# SM-Planners
+# SM-Planners - A Pixel Perfect Website
